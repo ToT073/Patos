@@ -80,7 +80,21 @@ body, ul {
  /* Fim estilo carousel */
 
  /* Início Estilo Media >> Mobile */
- @media (max-width: 600px) {
+ @media (max-width: 790px) {
+
+   #menu a:hover {
+    
+      /* background: rgba(0, 0, 0, 0.05); */
+      font-size: 24px;
+      /* border-bottom-right-radius: 15px; */
+      /* border-bottom-left-radius: 15px; */
+      /* border-color: #c4b059; */
+      border-left: 4px #f7f1f1;
+      border-bottom: 4px solid #c4b059;
+      box-shadow: 2px 2px 4px #c4b059;
+     
+   }
+
    #menu {
       display: block;
       position: absolute;
@@ -382,18 +396,23 @@ body, ul {
  }
  .rodape .info-contato p {
    margin: 0;
+   font-family: 'Amatic SC', sans-serif;
+   font-size: 22px;
  }
  .rodape .linkFooter {
    text-decoration: none;
    color: #000;
    font-size: 13px;
    margin-left: 0.7rem;
+   font-family: 'Amatic SC', sans-serif;
+   font-size: 24px;
  }
  .rodape .linkFooter:hover {
    font-weight: bold;
  }
  .rodape .redes-sociais {
    display: inline-block;
+   
  }
  .rodape .redes-sociais img {
    width: 50px;
@@ -413,6 +432,8 @@ body, ul {
  .rodape p.direitos {
    text-align: center;
    margin-top: 40px; 
+   font-family: 'Amatic SC', sans-serif;
+   font-size: 20px;
  }
  /* Fim estilo Footer (rodapé) */
 
@@ -461,8 +482,89 @@ body, ul {
 .embed-container .col-lg-4 {
    margin-top: 30px;
 
-}.embed-container .col-lg-6 {
+}
+.embed-container .col-lg-6 {
    margin-top: 30px;
 }
 
  /* Fim estilo Vídeos */
+
+ /* Início estilo contato */
+ .contact {
+   padding: 70px 0px;
+   background: #c4b059;
+
+ }
+ .section-title h2 {
+   color: #ffffff;
+   font-size: 30px;
+   font-weight: normal;
+   text-transform: uppercase;
+   letter-spacing: 8px;
+   border-bottom: 5px solid #6d4211;
+   padding-bottom: 10px;
+   display: inline-block;
+   font-family: 'Tilt Neon', sans-serif;
+ }
+ .section-title p {
+   color: #ffffff;
+   margin-bottom: 30px;
+   font-family: 'Amatic SC', sans-serif;
+   font-size: 24px;
+ }
+ .contact input,
+ .contact textarea {
+   background: #fafafa;
+   font-family: 'Amatic SC', sans-serif;
+   font-size: 20px;
+
+ }
+ .contact textarea {
+   min-height: 188px;
+   max-width: 100%;
+   font-family: 'Amatic SC', sans-serif;
+
+ }
+ .contact .map {
+   overflow: hidden;
+   border-radius: 4px;
+   height: 70%;
+
+ }
+
+ 
+ 
+ /* Fim estilo contato */
+ /* Início estilo market place */
+   .market-place {
+   width: 100%;
+   height: 180px;
+   /* margin-left: auto;
+   margin-right: auto;
+   position: relative;
+   padding: 200px 0;
+   display: flex;
+   align-items: center;
+   justify-content: center; */
+   
+ }
+ .market-place img {
+   margin-left: 70px;
+   width: 40%;
+   height: 190px;
+ }
+ 
+ .market-place .dois img {
+   height: 70%;
+   width: 20%;
+   margin-left: 150px;
+   /* margin-left: auto;
+   margin-right: auto;
+   position: relative;
+   padding: 20px 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;  */
+ } 
+
+ /* Fim estilo market place */
